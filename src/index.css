@@ -82,7 +82,7 @@ button {
   border-radius: var(--space-1);
   padding: var(--space-1) var(--space-2);
   color: white;
-  font-size: var(--font-m);
+  font-size: var(--font-sm);
 }
 
 button:hover {
@@ -93,15 +93,16 @@ button:hover {
 }
 
 /* utility classes */
-.btn-seconday{
-   background-color: var(--clr-secondary);
+.btn-seconday {
+  background-color: var(--clr-secondary);
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
 }
 
-.btn-seconday:hover{
+.btn-seconday:hover {
   border-width: 3px;
 }
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
