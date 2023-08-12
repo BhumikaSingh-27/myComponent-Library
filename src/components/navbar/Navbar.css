@@ -20,3 +20,9 @@
 .sidebarIcons:hover {
     cursor: pointer
 }
+
+/* not a link */
+.notLink{
+    text-decoration: none;
+    color: black;
+}
